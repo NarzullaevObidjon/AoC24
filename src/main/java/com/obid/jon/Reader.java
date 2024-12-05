@@ -6,10 +6,10 @@ import java.nio.file.Path;
 import java.util.List;
 
 public class Reader {
-    private static final String PATH = "C:/AoC/AoC24/src/main/resources/%d/%d.txt";
+    private static final String PATH = "C:/AoC/AoC24/src/main/resources/%d/input.txt";
 
-    public static List<String> readLines(int day, int problem) {
-        Path path = Path.of(PATH.formatted(day, problem));
+    public static List<String> readLines(int day) {
+        Path path = Path.of(PATH.formatted(day));
         try {
             return Files.readAllLines(path);
         } catch (IOException e) {

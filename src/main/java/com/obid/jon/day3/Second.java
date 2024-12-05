@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Second {
     public static void main(String[] args) {
-        List<String> lines = Reader.readLines(3, 2);
+        List<String> lines = Reader.readLines(3);
         int res = 0;
 
         String dont = "don't()";

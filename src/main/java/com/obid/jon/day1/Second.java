@@ -9,7 +9,7 @@ import java.util.Objects;
 
 public class Second {
     public static void main(String[] args) {
-        List<String> lines = Reader.readLines(1, 2);
+        List<String> lines = Reader.readLines(1);
         ArrayList<Integer> list1 = new ArrayList<>();
         ArrayList<Integer> list2 = new ArrayList<>();
 

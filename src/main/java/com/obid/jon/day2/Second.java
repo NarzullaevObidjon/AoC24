@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Second {
     public static void main(String[] args) {
-        List<String> lines = Reader.readLines(2, 2);
+        List<String> lines = Reader.readLines(2);
         int count = 0;
         for (String line : lines) {
             Integer[] numbers = Arrays.stream(line.split(" ")).map(Integer::parseInt).toList().toArray(new Integer[0]);

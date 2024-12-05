@@ -6,7 +6,7 @@ import java.util.List;
 
 public class First {
     public static void main(String[] args) {
-        List<String> lines = Reader.readLines(3, 1);
+        List<String> lines = Reader.readLines(3);
         int res = 0;
 
         for (int j = 0; j < lines.size(); j++) {

@@ -9,7 +9,7 @@ public class First {
     static int[][] A = {{0, -1}, {0, 1}, {-1, 0}, {1, 0}, {1, 1}, {-1, -1}, {1, -1}, {-1, 1}};
 
     public static void main(String[] args) {
-        List<String> lines = Reader.readLines(4, 1);
+        List<String> lines = Reader.readLines(4);
         int res = 0;
         char[] charDepth = {'X', 'M', 'A', 'S'};
         char[][] matrix = Utils.toMatrix(lines);
